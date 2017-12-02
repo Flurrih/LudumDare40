@@ -6,10 +6,20 @@ ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: BIG_street 1
+    100004: chodnik4
     400000: //RootNode
+    400002: BIG_street 1
+    400004: chodnik4
     2300000: //RootNode
+    2300002: BIG_street 1
+    2300004: chodnik4
     3300000: //RootNode
+    3300002: BIG_street 1
+    3300004: chodnik4
     4300000: Plane007
+    4300002: BIG_street
+    4300004: chodnik4
     9500000: //RootNode
   externalObjects:
   - first:
