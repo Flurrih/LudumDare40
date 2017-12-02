@@ -208,7 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a21e46d79dee0b498aee7b4bad6be19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CarSpeed: 6
+  CarSpeed: 3
   StoppedOnTrafficLight: 0
 --- !u!114 &114964657348990864
 MonoBehaviour:
