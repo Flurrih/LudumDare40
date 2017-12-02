@@ -13,4 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Ciasto
   id: 4
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: 3d787849334c02945bd6b321a742d252, type: 3}

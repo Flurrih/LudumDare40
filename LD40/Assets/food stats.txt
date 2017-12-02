@@ -1,0 +1,21 @@
+Food stats:
+
+---Donut---
+FAT     +15%
+ENERGY  +20%
+
+---Frytki---
+FAT     +28%
+ENERGY  +35%
+
+---HOT DOG---
+FAT     +30%
+ENERGY  +30%
+
+---PIZZA---
+FAT     +50%
+ENERGY  +100%
+
+---BURGER---
+FAT     +45%
+ENERGY  +80%
