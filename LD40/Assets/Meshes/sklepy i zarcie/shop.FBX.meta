@@ -1,24 +1,22 @@
 fileFormatVersion: 2
-guid: 3b60bf52c237b2240a27213fdc9eedda
-timeCreated: 1512214943
+guid: cbe3cfc833a03734a979f0df70114409
+timeCreated: 1512216007
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: B1_wall_bottom_door001
-    100004: Cylinder001
-    100006: food_shop
-    400000: //RootNode
-    400002: B1_wall_bottom_door001
-    400004: Cylinder001
-    400006: food_shop
-    2300000: B1_wall_bottom_door001
-    2300002: Cylinder001
-    3300000: B1_wall_bottom_door001
-    3300002: Cylinder001
-    4300000: B1_wall_bottom_door001
-    4300002: Cylinder001
+    100000: B1_wall_bottom_door002
+    100002: Cylinder002
+    100004: //RootNode
+    400000: B1_wall_bottom_door002
+    400002: Cylinder002
+    400004: //RootNode
+    2300000: B1_wall_bottom_door002
+    2300002: Cylinder002
+    3300000: B1_wall_bottom_door002
+    3300002: Cylinder002
+    4300000: B1_wall_bottom_door002
+    4300002: Cylinder002
     9500000: //RootNode
   externalObjects:
   - first:
