@@ -23,6 +23,8 @@ ModelImporter:
     100030: Plane010
     100032: street
     100034: street lamp
+    100036: 4way_cross 1
+    100038: chodnik3
     400000: //RootNode
     400002: 3way_cross
     400004: 4way_cross
@@ -41,6 +43,8 @@ ModelImporter:
     400030: Plane010
     400032: street
     400034: street lamp
+    400036: 4way_cross 1
+    400038: chodnik3
     2300000: //RootNode
     2300002: 3way_cross
     2300004: 4way_cross
@@ -55,6 +59,8 @@ ModelImporter:
     2300022: Cylinder004
     2300024: Plane010
     2300026: street
+    2300028: 4way_cross 1
+    2300030: chodnik3
     3300000: //RootNode
     3300002: 3way_cross
     3300004: 4way_cross
@@ -69,6 +75,8 @@ ModelImporter:
     3300022: Cylinder004
     3300024: Plane010
     3300026: street
+    3300028: 4way_cross 1
+    3300030: chodnik3
     4300000: Plane003
     4300002: Plane010
     4300004: Box002
@@ -83,6 +91,7 @@ ModelImporter:
     4300022: street
     4300024: 3way_cross
     4300026: 4way_cross
+    4300028: chodnik3
     7400000: Take 001
     9500000: //RootNode
   externalObjects:

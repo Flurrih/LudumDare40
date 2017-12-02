@@ -39,6 +39,7 @@ GameObject:
   - component: {fileID: 4940397063422306}
   - component: {fileID: 54289423971455152}
   - component: {fileID: 114178759836009730}
+  - component: {fileID: 65428303499017698}
   m_Layer: 0
   m_Name: Car
   m_TagString: Car
@@ -96,7 +97,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1657421503299990}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.986978, y: 4.803, z: -3.289076}
+  m_LocalPosition: {x: 4.227039, y: 1.21, z: 0.37984043}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4857921315907508}
@@ -172,6 +173,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.5, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65428303499017698
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1657421503299990}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 1.15, z: 1}
+  m_Center: {x: 0.05, y: 0, z: 0}
 --- !u!65 &65631604189566172
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -197,6 +210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CarSpeed: 3
   StoppedOnTrafficLight: 0
+  StoppedOnOtherCar: 0
 --- !u!114 &114964657348990864
 MonoBehaviour:
   m_ObjectHideFlags: 1
