@@ -98,7 +98,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43a93c81ae30e174e990d717e3b4b7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  food: {fileID: 11400000, guid: 7f05febd4ddf7184097d56c032f1b504, type: 2}
   movement: {fileID: 0}
   rotate: {fileID: 0}
   enterText: {fileID: 0}

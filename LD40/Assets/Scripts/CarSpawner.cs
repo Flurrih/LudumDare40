@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CarSpawner : MonoBehaviour {
 
-
+    public GameObject CarParent;
     public float minSpawnTime;
     public float maxSpawnTime;
     public float maxCarsPerSpawner = 2;
@@ -28,7 +28,9 @@ public class CarSpawner : MonoBehaviour {
         {
             spawnTimer = 0f;
             spawnTime = Random.Range(minSpawnTime, maxSpawnTime);
-            spawnedCars.Add(GameObject.Instantiate(Resources.Load("Car"), this.gameObject.transform.position, transform.rotation) as GameObject);
+            GameObject go = GameObject.Instantiate(Resources.Load("Car"), this.gameObject.transform.position, transform.rotation) as GameObject;
+            go.transform.parent = CarParent.transform;
+            spawnedCars.Add(go);
 
         }
     }
