@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: 4fc9799f75684fd4da45a8688c5d51c0
+timeCreated: 1512242222
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: backlight
+    100002: body
+    100004: Car
+    100006: //RootNode
+    100008: Dummy001
+    100010: front_fender
+    100012: headlight
+    100014: lattice_1
+    100016: lights
+    100018: Plane001
+    100020: rear_fender
+    100022: wheel1_1
+    100024: wheel_1
+    400000: backlight
+    400002: body
+    400004: Car
+    400006: //RootNode
+    400008: Dummy001
+    400010: front_fender
+    400012: headlight
+    400014: lattice_1
+    400016: lights
+    400018: Plane001
+    400020: rear_fender
+    400022: wheel1_1
+    400024: wheel_1
+    2300000: backlight
+    2300002: body
+    2300004: front_fender
+    2300006: headlight
+    2300008: lattice_1
+    2300010: rear_fender
+    2300012: wheel1_1
+    2300014: wheel_1
+    3300000: backlight
+    3300002: body
+    3300004: front_fender
+    3300006: headlight
+    3300008: lattice_1
+    3300010: rear_fender
+    3300012: wheel1_1
+    3300014: wheel_1
+    4300000: lattice_1
+    4300002: rear_fender
+    4300004: front_fender
+    4300006: backlight
+    4300008: headlight
+    4300010: wheel_1
+    4300012: wheel1_1
+    4300014: body
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: car body
+    second: {fileID: 2100000, guid: 9a6db004fc43c234d8ba0257b85e0a02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: engine grille
+    second: {fileID: 2100000, guid: c609b376d02d58c40977296fc14ab4dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: db56ae4f3aa712146b5dde4248f7a099, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headlight
+    second: {fileID: 2100000, guid: d14df5f3380cd6d4b98e7cffabf84bc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rear lights
+    second: {fileID: 2100000, guid: 9f37591748109754ea9f8181bcea8cf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheels
+    second: {fileID: 2100000, guid: b33803c9d670b8a4bb8c05a4640ea11b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

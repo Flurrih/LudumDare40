@@ -11,9 +11,14 @@ public class PlayerEquipment : MonoBehaviour
         ingredients = new List<Ingredient>();
     }
 
-    void Update()
+    public List<int> GetIngredientsIds()
     {
-
+        List<int> ids = new List<int>();
+        for (int i = 0; i < ingredients.Count; i++)
+        {
+            ids.Add(ingredients[i].id);
+        }
+        return ids;
     }
 
     public void AddIngredient(Ingredient ingredient)
