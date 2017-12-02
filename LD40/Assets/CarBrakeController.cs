@@ -9,6 +9,7 @@ public class CarBrakeController : MonoBehaviour {
         if(other.tag == "Car")
         {
             GetComponentInParent<CarController>().Brake();
+            GetComponentInParent<CarController>().StoppedOnOtherCar = true;
         }
     }
 }
