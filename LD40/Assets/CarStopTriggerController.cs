@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CarStopTriggerController : MonoBehaviour {
 
-    public void OnTriggerEnter(Collider other)
+    public void OnTriggerStay(Collider other)
     {
         if(other.tag == "Car")
         {

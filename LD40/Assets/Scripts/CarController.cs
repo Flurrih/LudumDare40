@@ -13,4 +13,9 @@ public class CarController : MonoBehaviour {
         else
             this.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
 	}
+
+    public void Brake()
+    {
+        this.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
+    }
 }
