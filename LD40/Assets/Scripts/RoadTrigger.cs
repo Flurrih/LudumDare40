@@ -8,7 +8,7 @@ public class RoadTrigger : MonoBehaviour {
     {
         if(other.tag == "Player")
         {
-            Debug.Log("Player entered road!! Police!!");
+            GameObject.FindGameObjectWithTag("PoliceEffect").GetComponent<PoliceEffectController>().IsBeingChasedByCops = true;
         }
     }
 }

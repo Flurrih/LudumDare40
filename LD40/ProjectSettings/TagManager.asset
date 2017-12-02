@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Shop
   - Car
+  - PoliceEffect
   layers:
   - Default
   - TransparentFX
