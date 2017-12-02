@@ -1,14 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using NUnit.Framework.Constraints;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
-public class ShopItemSelector : MonoBehaviour, IPointerClickHandler {
-    
-    public PlayerEquipment.FoodComponent component;
+public class ShopItemSelector : MonoBehaviour
+{
+    public Ingredient ingredient;
 
-	public void OnPointerClick(PointerEventData eventData)
+    void Start()
     {
-        GameObject.FindGameObjectWithTag("Shop").GetComponent<ShopController>().BuyComponent(component);
+        GetComponent<Image>().sprite = ingredient.image;
+    }
+
+	public void OnClick ()
+    {
+        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerEquipment>().AddIngredient(ingredient);
     }
 }

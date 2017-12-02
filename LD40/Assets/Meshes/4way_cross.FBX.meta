@@ -6,10 +6,84 @@ ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: 3way_cross
+    100004: 4way_cross
+    100006: BIG_street_lamp
+    100008: Box001
+    100010: Box002
+    100012: Box003
+    100014: Box004
+    100016: Box005
+    100018: Box006
+    100020: Cylinder002
+    100022: Cylinder003
+    100024: Cylinder004
+    100026: Particle View 001
+    100028: Plane001
+    100030: Plane010
+    100032: street
+    100034: street lamp
     400000: //RootNode
+    400002: 3way_cross
+    400004: 4way_cross
+    400006: BIG_street_lamp
+    400008: Box001
+    400010: Box002
+    400012: Box003
+    400014: Box004
+    400016: Box005
+    400018: Box006
+    400020: Cylinder002
+    400022: Cylinder003
+    400024: Cylinder004
+    400026: Particle View 001
+    400028: Plane001
+    400030: Plane010
+    400032: street
+    400034: street lamp
     2300000: //RootNode
+    2300002: 3way_cross
+    2300004: 4way_cross
+    2300006: Box001
+    2300008: Box002
+    2300010: Box003
+    2300012: Box004
+    2300014: Box005
+    2300016: Box006
+    2300018: Cylinder002
+    2300020: Cylinder003
+    2300022: Cylinder004
+    2300024: Plane010
+    2300026: street
     3300000: //RootNode
+    3300002: 3way_cross
+    3300004: 4way_cross
+    3300006: Box001
+    3300008: Box002
+    3300010: Box003
+    3300012: Box004
+    3300014: Box005
+    3300016: Box006
+    3300018: Cylinder002
+    3300020: Cylinder003
+    3300022: Cylinder004
+    3300024: Plane010
+    3300026: street
     4300000: Plane003
+    4300002: Plane010
+    4300004: Box002
+    4300006: Box001
+    4300008: Cylinder003
+    4300010: Box003
+    4300012: Cylinder002
+    4300014: Box006
+    4300016: Box004
+    4300018: Box005
+    4300020: Cylinder004
+    4300022: street
+    4300024: 3way_cross
+    4300026: 4way_cross
+    7400000: Take 001
     9500000: //RootNode
   externalObjects:
   - first:

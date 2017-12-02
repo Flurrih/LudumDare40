@@ -2,26 +2,41 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerEquipment : MonoBehaviour {
+public class PlayerEquipment : MonoBehaviour
+{
+    private List<Ingredient> ingredients;
 
-    public enum FoodComponent
+    void Start()
     {
-        Mustard,
-        Ketchup,
-        Sausage,
-        Roll,
-        None
+        ingredients = new List<Ingredient>();
     }
 
-    public FoodComponent carryingComponent = FoodComponent.None;
+    void Update()
+    {
 
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        Debug.Log(carryingComponent);
-	}
+    }
+
+    public void AddIngredient(Ingredient ingredient)
+    {
+        bool isInList = false;
+
+        for (int i = 0; i < ingredients.Count; i++)
+        {
+            if (ingredient.Equals(ingredients[i]))
+            {
+                isInList = true;
+                break;
+            }
+        }
+
+        if (!isInList)
+        {
+            ingredients.Add(ingredient);
+        }
+
+        foreach (var item in ingredients)
+        {
+            Debug.Log(item.name);
+        }
+    }
 }

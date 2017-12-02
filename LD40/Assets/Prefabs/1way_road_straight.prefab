@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33388281486497224}
   - component: {fileID: 23533856930381602}
   - component: {fileID: 95427379512961860}
+  - component: {fileID: 65378473573730010}
   m_Layer: 0
   m_Name: 1way_road_straight
   m_TagString: Untagged
@@ -83,6 +84,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1826997099049048}
   m_Mesh: {fileID: 4300000, guid: de058ac97c8120c4c88c72e5e077d674, type: 3}
+--- !u!65 &65378473573730010
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1826997099049048}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6, y: 6.0000014, z: 0.17000003}
+  m_Center: {x: 0.00054597855, y: 3.0000007, z: -0.06500001}
 --- !u!95 &95427379512961860
 Animator:
   serializedVersion: 3

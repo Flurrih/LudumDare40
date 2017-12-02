@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5a3c719ce8346144af1d199f48e11ad, type: 3}
   m_Name: Pizza
   m_EditorClassIdentifier: 
-  fat: 0
-  energy: 0
-  requirements: {fileID: 0}
+  fat: 0.5
+  energy: 1
+  requirementsPool: []
