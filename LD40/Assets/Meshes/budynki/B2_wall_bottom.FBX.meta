@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: de058ac97c8120c4c88c72e5e077d674
-timeCreated: 1512208360
+guid: 526f8db76bd0c9b4486a7392ed692e31
+timeCreated: 1512228231
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -9,8 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Plane001
-    4300002: Plane011
+    4300000: B2_wall_bottom_window
     9500000: //RootNode
   externalObjects:
   - first:
