@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class FoodShopController : MonoBehaviour
 {
-    public Food food;
+    private Food food;
 
     private Requirements requirements;
 
@@ -25,6 +25,11 @@ public class FoodShopController : MonoBehaviour
     void Awake()
     {
         requirements = food.requirementsPool[Random.Range(0, food.requirementsPool.Length)];
+    }
+
+    public void InitFood(Food food)
+    {
+        this.food = food;
     }
 
     void OnEnable()
@@ -63,6 +68,7 @@ public class FoodShopController : MonoBehaviour
             if (timer >= showTime)
             {
                 gameObject.SetActive(false);
+                eatText.transform.position += Vector3.up * timer;
             }
             timer += Time.deltaTime;
         }
