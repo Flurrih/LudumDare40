@@ -1,0 +1,22 @@
+ID      NAME
+0       Parufa
+1       Ketchup
+2       Mussztarda
+3       BulkaHotDog
+4       Ciasto
+5       Szynka
+6       Ser
+7       Pieczarki
+8       Pomidor
+9       Salami
+10      BulkaBurger
+11      Wolowina
+12      Ziemniak
+13
+14
+15
+16
+17
+18
+19
+20
