@@ -29,6 +29,7 @@ public class ControladorDePersonagem : MonoBehaviour {
 
     void Start ()
     {
+        Cursor.visible = true;
         centroDaTela.x = 0.5f;
         centroDaTela.y = 0.5f;
         centroDaTela.z = 0f;

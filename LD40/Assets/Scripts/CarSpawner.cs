@@ -6,11 +6,7 @@ public class CarSpawner : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+        GameObject.Instantiate(Resources.Load("Car"), this.gameObject.transform.position, Quaternion.identity);
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }
