@@ -6,4 +6,14 @@ using UnityEngine;
 public class Requirements : ScriptableObject
 {
     public Ingredient[] ingredients;
+
+    public List<int> GetIngredientsIds()
+    {
+        List<int> ids = new List<int>();
+        for (int i = 0; i < ingredients.Length; i++)
+        {
+            ids.Add(ingredients[i].id);
+        }
+        return ids;
+    }
 }
