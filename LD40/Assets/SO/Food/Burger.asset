@@ -13,4 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fat: 0.45
   energy: 0.8
-  requirementsPool: []
+  requirementsPool:
+  - {fileID: 11400000, guid: 2d6faae22d389ce41bcbf96f6b07bf71, type: 2}
+  - {fileID: 11400000, guid: 047b8dd4aed826240b8abd1eccc8c940, type: 2}
+  - {fileID: 11400000, guid: 47601467e45b1de4aad76cafd9dce3a9, type: 2}
