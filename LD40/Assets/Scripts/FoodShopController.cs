@@ -29,6 +29,13 @@ public class FoodShopController : MonoBehaviour
 
     private bool canEat;
 
+    private AudioSource audioSource;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     public void InitFood(Food food, Requirements req, EnterFoodShopController foodShop)
     {
         this.food = food;
@@ -42,6 +49,7 @@ public class FoodShopController : MonoBehaviour
         if (canEat)
         {
             playerHealth.Eat(food, foodShop);
+            audioSource.Play();
             foodShop.ResetTimer();
             eatText.text = string.Format("Power +{0:##0}% \nWeight +{1:##0}%", food.energy * 100, food.fat * 100);
             eatText.gameObject.SetActive(true);
