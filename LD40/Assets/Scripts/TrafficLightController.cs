@@ -9,6 +9,7 @@ public class TrafficLightController : MonoBehaviour
     public GameObject CarLight1, CarLight2;
     public GameObject StopTrigger1, StopTrigger2;
     public GameObject StartTrigger1, StartTrigger2;
+    public GameObject policetrigger;
     public float TrafficDuration = 2.0f;
     float trafficCounter = 0f;
 
@@ -51,6 +52,7 @@ public class TrafficLightController : MonoBehaviour
                     StartTrigger1.SetActive(true);
                 if (StartTrigger2 != null)
                     StartTrigger2.SetActive(true);
+                policetrigger.SetActive(true);
             }
             else if (trafficPriority == TrafficLightPriority.Car)
             {
@@ -72,7 +74,7 @@ public class TrafficLightController : MonoBehaviour
                     StartTrigger1.SetActive(false);
                 if (StartTrigger2 != null)
                     StartTrigger2.SetActive(false);
-
+                policetrigger.SetActive(false);
             }
 
             trafficCounter = 0f;
