@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     //Define the turning speed.
     private float turningSpeed = 4.0f;
 
-    private float verticalMove;
+    public float verticalMove { get; private set; }
 
     private float horizontal;
 
