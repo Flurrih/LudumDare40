@@ -42,6 +42,7 @@ public class FoodShopController : MonoBehaviour
         if (canEat)
         {
             playerHealth.Eat(food, foodShop);
+            foodShop.ResetTimer();
             eatText.text = string.Format("Power +{0:##0}% \nWeight +{1:##0}%", food.energy * 100, food.fat * 100);
             eatText.gameObject.SetActive(true);
             timer = 0;
