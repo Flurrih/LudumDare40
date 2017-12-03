@@ -13,11 +13,12 @@ public class PlayerController : MonoBehaviour {
 
     //Define the turning speed.
     private float turningSpeed = 4.0f;
-    
+
+    private float verticalMove;
 
     private float horizontal;
 
-    private Animator animator;
+    public Animator animator;
     private Vector3 screenCenter;
     private CursorLockMode mouseLockMode;
     
@@ -33,7 +34,6 @@ public class PlayerController : MonoBehaviour {
         screenCenter.x = 0.5f;
         screenCenter.y = 0.5f;
         screenCenter.z = 0f;
-        animator = GetComponentInChildren<Animator>();
         state = 0;
         isAiming = false;
         LockControl = false;
@@ -56,7 +56,8 @@ public class PlayerController : MonoBehaviour {
 
     private void Anim()
     {
-        animator.SetInteger("Estado", state);
+        animator.SetFloat("Forward", verticalMove);
+        animator.SetFloat("Speed", gameObject.GetComponent<PlayerHealth>().weight);
     }
 
     private void Control()
@@ -69,6 +70,8 @@ public class PlayerController : MonoBehaviour {
         04 = Walking Right
         05 = Walking Left
         */
+
+        verticalMove = Input.GetAxis("Vertical");
 
         if (Input.GetKeyDown("w"))
         {
