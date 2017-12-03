@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerHealth : MonoBehaviour {
+public class PlayerHealth : MonoBehaviour
+{
+
+    public SkinnedMeshRenderer[] meshes;
 
     public float StartWeight, StartPower;
 
@@ -13,6 +16,14 @@ public class PlayerHealth : MonoBehaviour {
     {
         weight = StartWeight;
         energy = StartPower;
+    }
+
+    private void Update()
+    {
+        for (int i = 0; i < meshes.Length; i++)
+        {
+            meshes[i].SetBlendShapeWeight(0, weight * 100);
+        }
     }
 
     public void Eat(Food food, EnterFoodShopController foodShopController)
