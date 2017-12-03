@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class ShopController : MonoBehaviour
 {
-    public ControladorDePersonagem movement;
-    public ControleOrbital rotate;
+    public PlayerController movement;
+    public PlayerRotationController rotate;
 
     public Text enterText;
     public GameObject hud;

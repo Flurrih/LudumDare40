@@ -9,8 +9,8 @@ public class FoodShopController : MonoBehaviour
 
     private Requirements requirements;
 
-    public ControladorDePersonagem movement;
-    public ControleOrbital rotate;
+    public PlayerController movement;
+    public PlayerRotationController rotate;
     public Text enterText;
     public Text eatText;
     public GameObject hud;
@@ -85,6 +85,10 @@ public class FoodShopController : MonoBehaviour
         if (canEat)
         {
             eatText.gameObject.SetActive(false);
+            for (int i = 0; i < transform.childCount; i++)
+            {
+                transform.GetChild(i).gameObject.SetActive(true);
+            }
         }
         else
         {
