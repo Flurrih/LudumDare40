@@ -39,6 +39,12 @@ public class PlayerHealth : MonoBehaviour
         {
             weight += Time.deltaTime * fatGainStayPerSec;
         }
+
+        if (energy <= 0 || weight >= 1)
+        {
+            GameObject.FindGameObjectWithTag("GameController").GetComponent<PlayerDeathController>().Wasted();
+        }
+
     }
 
     public void Eat(Food food, EnterFoodShopController foodShopController)
