@@ -12,7 +12,8 @@ public class CarController : MonoBehaviour {
 
     public float CarLifeTime = 25.0f;
     // Update is called once per frame
-    void Update () {
+    void FixedUpdate()
+    { 
         if (StoppedOnTrafficLight != true)
             this.gameObject.GetComponent<Rigidbody>().AddForce(gameObject.transform.rotation * new Vector3(CarSpeed, 0f, 0f));
         else
