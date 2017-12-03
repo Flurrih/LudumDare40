@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: 2940f94bc2e43c24fbbaf5602abe4257
+timeCreated: 1512287715
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: MixamoVincent7k_TurboSquid_001_2010
+    100002: polySurface6
+    100004: //RootNode
+    100006: Vincent:Head
+    100008: Vincent:HeadTop_End
+    100010: Vincent:Hips
+    100012: Vincent:LeftArm
+    100014: Vincent:LeftFoot
+    100016: Vincent:LeftForeArm
+    100018: Vincent:LeftHand
+    100020: Vincent:LeftHandIndex1
+    100022: Vincent:LeftHandIndex2
+    100024: Vincent:LeftHandIndex3
+    100026: Vincent:LeftHandMiddle1
+    100028: Vincent:LeftHandMiddle2
+    100030: Vincent:LeftHandMiddle3
+    100032: Vincent:LeftHandPinky1
+    100034: Vincent:LeftHandPinky2
+    100036: Vincent:LeftHandPinky3
+    100038: Vincent:LeftHandRing1
+    100040: Vincent:LeftHandRing2
+    100042: Vincent:LeftHandRing3
+    100044: Vincent:LeftHandThumb1
+    100046: Vincent:LeftHandThumb2
+    100048: Vincent:LeftHandThumb3
+    100050: Vincent:LeftLeg
+    100052: Vincent:LeftShoulder
+    100054: Vincent:LeftToeBase
+    100056: Vincent:LeftUpLeg
+    100058: Vincent:Neck
+    100060: Vincent:Neck1
+    100062: Vincent:RightArm
+    100064: Vincent:RightFoot
+    100066: Vincent:RightForeArm
+    100068: Vincent:RightHand
+    100070: Vincent:RightHandIndex1
+    100072: Vincent:RightHandIndex2
+    100074: Vincent:RightHandIndex3
+    100076: Vincent:RightHandMiddle1
+    100078: Vincent:RightHandMiddle2
+    100080: Vincent:RightHandMiddle3
+    100082: Vincent:RightHandPinky1
+    100084: Vincent:RightHandPinky2
+    100086: Vincent:RightHandPinky3
+    100088: Vincent:RightHandRing1
+    100090: Vincent:RightHandRing2
+    100092: Vincent:RightHandRing3
+    100094: Vincent:RightHandThumb1
+    100096: Vincent:RightHandThumb2
+    100098: Vincent:RightHandThumb3
+    100100: Vincent:RightLeg
+    100102: Vincent:RightShoulder
+    100104: Vincent:RightToeBase
+    100106: Vincent:RightUpLeg
+    100108: Vincent:Spine
+    100110: Vincent:Spine1
+    100112: Vincent:Spine2
+    400000: MixamoVincent7k_TurboSquid_001_2010
+    400002: polySurface6
+    400004: //RootNode
+    400006: Vincent:Head
+    400008: Vincent:HeadTop_End
+    400010: Vincent:Hips
+    400012: Vincent:LeftArm
+    400014: Vincent:LeftFoot
+    400016: Vincent:LeftForeArm
+    400018: Vincent:LeftHand
+    400020: Vincent:LeftHandIndex1
+    400022: Vincent:LeftHandIndex2
+    400024: Vincent:LeftHandIndex3
+    400026: Vincent:LeftHandMiddle1
+    400028: Vincent:LeftHandMiddle2
+    400030: Vincent:LeftHandMiddle3
+    400032: Vincent:LeftHandPinky1
+    400034: Vincent:LeftHandPinky2
+    400036: Vincent:LeftHandPinky3
+    400038: Vincent:LeftHandRing1
+    400040: Vincent:LeftHandRing2
+    400042: Vincent:LeftHandRing3
+    400044: Vincent:LeftHandThumb1
+    400046: Vincent:LeftHandThumb2
+    400048: Vincent:LeftHandThumb3
+    400050: Vincent:LeftLeg
+    400052: Vincent:LeftShoulder
+    400054: Vincent:LeftToeBase
+    400056: Vincent:LeftUpLeg
+    400058: Vincent:Neck
+    400060: Vincent:Neck1
+    400062: Vincent:RightArm
+    400064: Vincent:RightFoot
+    400066: Vincent:RightForeArm
+    400068: Vincent:RightHand
+    400070: Vincent:RightHandIndex1
+    400072: Vincent:RightHandIndex2
+    400074: Vincent:RightHandIndex3
+    400076: Vincent:RightHandMiddle1
+    400078: Vincent:RightHandMiddle2
+    400080: Vincent:RightHandMiddle3
+    400082: Vincent:RightHandPinky1
+    400084: Vincent:RightHandPinky2
+    400086: Vincent:RightHandPinky3
+    400088: Vincent:RightHandRing1
+    400090: Vincent:RightHandRing2
+    400092: Vincent:RightHandRing3
+    400094: Vincent:RightHandThumb1
+    400096: Vincent:RightHandThumb2
+    400098: Vincent:RightHandThumb3
+    400100: Vincent:RightLeg
+    400102: Vincent:RightShoulder
+    400104: Vincent:RightToeBase
+    400106: Vincent:RightUpLeg
+    400108: Vincent:Spine
+    400110: Vincent:Spine1
+    400112: Vincent:Spine2
+    4300000: polySurface6
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: polySurface6
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Casual_Male_Lod_1
+    second: {fileID: 2100000, guid: 1caa436615962664497c129ddf7203ce, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
