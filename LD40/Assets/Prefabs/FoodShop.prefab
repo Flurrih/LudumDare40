@@ -102,6 +102,9 @@ MonoBehaviour:
   rotate: {fileID: 0}
   enterText: {fileID: 0}
   eatText: {fileID: 0}
+  hud: {fileID: 0}
+  neededItems: {fileID: 1177789219087038}
+  itemRef: {fileID: 1741989216761376, guid: d74e38a941dac8148bcd0935b6c2b59c, type: 2}
   showTime: 1.5
   playerEquipment: {fileID: 0}
   playerHealth: {fileID: 0}

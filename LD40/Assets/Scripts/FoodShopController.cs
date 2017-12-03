@@ -13,6 +13,11 @@ public class FoodShopController : MonoBehaviour
     public ControleOrbital rotate;
     public Text enterText;
     public Text eatText;
+    public GameObject hud;
+
+    public GameObject neededItems;
+
+    public GameObject itemRef;
 
     public float showTime;
     private float timer;
@@ -20,16 +25,15 @@ public class FoodShopController : MonoBehaviour
     public PlayerEquipment playerEquipment;
     public PlayerHealth playerHealth;
 
+    private EnterFoodShopController foodShop;
+
     private bool canEat;
 
-    void Awake()
-    {
-        requirements = food.requirementsPool[Random.Range(0, food.requirementsPool.Length)];
-    }
-
-    public void InitFood(Food food)
+    public void InitFood(Food food, Requirements req, EnterFoodShopController foodShop)
     {
         this.food = food;
+        this.requirements = req;
+        this.foodShop = foodShop;
     }
 
     void OnEnable()
@@ -37,7 +41,7 @@ public class FoodShopController : MonoBehaviour
         CanEat(playerEquipment);
         if (canEat)
         {
-            playerHealth.Eat(food);
+            playerHealth.Eat(food, foodShop);
             eatText.text = string.Format("Power +{0:##0}% \nWeight +{1:##0}%", food.energy * 100, food.fat * 100);
             eatText.gameObject.SetActive(true);
             timer = 0;
@@ -53,6 +57,8 @@ public class FoodShopController : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
             enterText.gameObject.SetActive(false);
+            SetRequirementsView();
+            hud.SetActive(false);
         }
     }
 
@@ -68,7 +74,6 @@ public class FoodShopController : MonoBehaviour
             if (timer >= showTime)
             {
                 gameObject.SetActive(false);
-                eatText.transform.position += Vector3.up * timer;
             }
             timer += Time.deltaTime;
         }
@@ -87,12 +92,20 @@ public class FoodShopController : MonoBehaviour
             enterText.gameObject.SetActive(true);
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
+            hud.SetActive(true);
         }
     }
 
     private void CanEat(PlayerEquipment playerEquipment)
     {
         canEat = true;
+
+        if (playerEquipment.GetIngredientsIds().Count < requirements.GetIngredientsIds().Count)
+        {
+            canEat = false;
+            return;
+        }
+
         for (int i = 0; i < playerEquipment.GetIngredientsIds().Count; i++)
         {
             if (!requirements.GetIngredientsIds().Contains(playerEquipment.GetIngredientsIds()[i]))
@@ -100,6 +113,24 @@ public class FoodShopController : MonoBehaviour
                 canEat = false;
                 break;
             }
+        }
+    }
+
+    private void SetRequirementsView()
+    {
+        for (int i = 0; i < neededItems.transform.childCount; i++)
+        {
+            Destroy(neededItems.transform.GetChild(i).gameObject);
+        }
+
+        for (int i = 0; i < requirements.ingredients.Length; i++)
+        {
+            GameObject go = Instantiate(itemRef, neededItems.transform);
+            go.GetComponent<ShopItemSelector>().ingredient = requirements.ingredients[i];
+
+            Color c = go.GetComponent<Image>().color;
+            c.a = playerEquipment.GetIngredientsIds().Contains(requirements.ingredients[i].id) ? 0.5f : 1.0f;
+            go.GetComponent<Image>().color = c;
         }
     }
 }

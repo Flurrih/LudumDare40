@@ -5,7 +5,9 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour {
 
     public float StartWeight, StartPower;
-    float weight, energy;
+
+    [HideInInspector]
+    public float weight, energy;
 
     private void Start()
     {
@@ -13,7 +15,7 @@ public class PlayerHealth : MonoBehaviour {
         energy = StartPower;
     }
 
-    public void Eat(Food food)
+    public void Eat(Food food, EnterFoodShopController foodShopController)
     {
         weight += food.fat;
         energy += food.energy;
@@ -26,5 +28,7 @@ public class PlayerHealth : MonoBehaviour {
         {
             energy = 1f;
         }
+        foodShopController.DrawNewRequirements();
+        Debug.Log("You ate " + food.name + "\n weight: " + weight + ", energy: " + energy);
     }
 }

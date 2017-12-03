@@ -9,6 +9,7 @@ public class ShopController : MonoBehaviour
     public ControleOrbital rotate;
 
     public Text enterText;
+    public GameObject hud;
 
     void OnEnable()
     {
@@ -17,6 +18,7 @@ public class ShopController : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         enterText.gameObject.SetActive(false);
+        hud.SetActive(false);
     }
 
     void Update()
@@ -34,5 +36,6 @@ public class ShopController : MonoBehaviour
         enterText.gameObject.SetActive(true);
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        hud.SetActive(true);
     }
 }

@@ -15,3 +15,7 @@ MonoBehaviour:
   energy: 0.3
   requirementsPool:
   - {fileID: 11400000, guid: 706df194584e05140a9bcceb23c0d699, type: 2}
+  - {fileID: 11400000, guid: d1ce99a28c02adb4b9467f2198091d18, type: 2}
+  - {fileID: 11400000, guid: d7d221ba6f503c24682b5868273cc040, type: 2}
+  - {fileID: 11400000, guid: b16775a48714204418924d5f3c783b9e, type: 2}
+  - {fileID: 11400000, guid: edae009d55778c244afaa40bf6017574, type: 2}
