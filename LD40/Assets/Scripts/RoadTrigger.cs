@@ -14,7 +14,10 @@ public class RoadTrigger : MonoBehaviour {
 
     public void OnTriggerExit(Collider other)
     {
-        GameObject.FindGameObjectWithTag("PoliceEffect").GetComponent<PoliceEffectController>().IsBeingChasedByCops = false;
-
+        if (other.tag == "Player")
+        {
+            if (GameObject.FindGameObjectWithTag("PoliceEffect").GetComponent<PoliceEffectController>() != null)
+                GameObject.FindGameObjectWithTag("PoliceEffect").GetComponent<PoliceEffectController>().IsBeingChasedByCops = false;
+        }
     }
 }
