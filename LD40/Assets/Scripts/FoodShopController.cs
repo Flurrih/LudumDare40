@@ -38,7 +38,7 @@ public class FoodShopController : MonoBehaviour
 
     void OnEnable()
     {
-        CanEat(playerEquipment);
+        CanEat();
         if (canEat)
         {
             playerHealth.Eat(food, foodShop);
@@ -101,7 +101,7 @@ public class FoodShopController : MonoBehaviour
         }
     }
 
-    private void CanEat(PlayerEquipment playerEquipment)
+    private void CanEat()
     {
         canEat = true;
 
@@ -111,9 +111,9 @@ public class FoodShopController : MonoBehaviour
             return;
         }
 
-        for (int i = 0; i < playerEquipment.GetIngredientsIds().Count; i++)
+        for (int i = 0; i < requirements.GetIngredientsIds().Count; i++)
         {
-            if (!requirements.GetIngredientsIds().Contains(playerEquipment.GetIngredientsIds()[i]))
+            if (!playerEquipment.GetIngredientsIds().Contains(requirements.GetIngredientsIds()[i]))
             {
                 canEat = false;
                 break;
