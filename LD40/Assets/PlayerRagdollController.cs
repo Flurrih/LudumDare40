@@ -13,6 +13,9 @@ public class PlayerRagdollController : MonoBehaviour {
         {
             Player.SetActive(false);
             Ragdoll.SetActive(true);
+            Ragdoll.transform.parent = null;
+            GetComponent<Collider>().enabled = false;
+            GetComponent<Rigidbody>().useGravity = false;
         }
     }
 }
