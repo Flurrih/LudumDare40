@@ -4,11 +4,17 @@ using UnityEngine;
 
 public class RoadTrigger : MonoBehaviour {
 
-    public void OnTriggerEnter(Collider other)
+    public void OnTriggerStay(Collider other)
     {
         if(other.tag == "Player")
         {
             GameObject.FindGameObjectWithTag("PoliceEffect").GetComponent<PoliceEffectController>().IsBeingChasedByCops = true;
         }
+    }
+
+    public void OnTriggerExit(Collider other)
+    {
+        GameObject.FindGameObjectWithTag("PoliceEffect").GetComponent<PoliceEffectController>().IsBeingChasedByCops = false;
+
     }
 }
