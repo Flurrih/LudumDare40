@@ -16,6 +16,7 @@ public class PlayerRagdollController : MonoBehaviour {
             Ragdoll.transform.parent = null;
             GetComponent<Collider>().enabled = false;
             GetComponent<Rigidbody>().useGravity = false;
+            Time.timeScale = 0.5f;
         }
     }
 }

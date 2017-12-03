@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4707544634454880}
   - component: {fileID: 33703412348765214}
   - component: {fileID: 23355931927269470}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4978441840781342}
   - component: {fileID: 33695839652358390}
   - component: {fileID: 23693136427766726}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,10 +71,9 @@ GameObject:
   - component: {fileID: 4940397063422306}
   - component: {fileID: 54289423971455152}
   - component: {fileID: 114178759836009730}
-  - component: {fileID: 65428303499017698}
   - component: {fileID: 114252256181449994}
   - component: {fileID: 114822887829242546}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Car
   m_TagString: Car
   m_Icon: {fileID: 0}
@@ -91,7 +90,7 @@ GameObject:
   - component: {fileID: 4181448925142328}
   - component: {fileID: 33665258816214962}
   - component: {fileID: 23133176362852146}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +107,7 @@ GameObject:
   - component: {fileID: 4476789742607638}
   - component: {fileID: 33965463405923206}
   - component: {fileID: 23023562968965472}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +124,7 @@ GameObject:
   - component: {fileID: 4434488187913444}
   - component: {fileID: 65267409597727732}
   - component: {fileID: 114964657348990864}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4509267852157154}
   - component: {fileID: 95795838761462552}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: suv_car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,7 +157,7 @@ GameObject:
   - component: {fileID: 4412182633110952}
   - component: {fileID: 33656695728734212}
   - component: {fileID: 23169390229994962}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -199,7 +198,7 @@ Transform:
   m_GameObject: {fileID: 1556943611996474}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.686, y: 0.48, z: 0.041}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.5457157, z: 0.90000004}
   m_Children: []
   m_Father: {fileID: 4940397063422306}
   m_RootOrder: 1
@@ -211,8 +210,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1786501164768928}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.515, y: 0, z: 0}
-  m_LocalScale: {x: 1.1989363, y: 1, z: 1}
+  m_LocalPosition: {x: 3.6, y: 0.35, z: 0}
+  m_LocalScale: {x: 1.1989363, y: 1, z: 1.6200001}
   m_Children: []
   m_Father: {fileID: 4940397063422306}
   m_RootOrder: 0
@@ -517,7 +516,7 @@ Rigidbody:
   m_Mass: 25
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
@@ -534,25 +533,13 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.5, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &65428303499017698
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1657421503299990}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2, y: 1.15, z: 1}
-  m_Center: {x: 0.05, y: 0, z: 0}
 --- !u!65 &65670518049650958
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1556943611996474}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: ceff60a72f285a647985ab97ef1f0713, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -586,7 +573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a21e46d79dee0b498aee7b4bad6be19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CarSpeed: 50
+  CarSpeed: 300
   StoppedOnTrafficLight: 0
   StoppedOnOtherCar: 0
   CarLifeTime: 25
