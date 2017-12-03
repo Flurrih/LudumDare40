@@ -13,4 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Ser
   id: 6
-  image: {fileID: 21300000, guid: 3d787849334c02945bd6b321a742d252, type: 3}
+  image: {fileID: 21300000, guid: 9c49616e61fbb6a4689cde52eaf9074f, type: 3}

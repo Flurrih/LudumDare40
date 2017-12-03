@@ -13,4 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Cukier
   id: 13
-  image: {fileID: 21300000, guid: 3d787849334c02945bd6b321a742d252, type: 3}
+  image: {fileID: 21300000, guid: df085dcbb9d7c234f81eb748ebcbb848, type: 3}
