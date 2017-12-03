@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 526f8db76bd0c9b4486a7392ed692e31
-timeCreated: 1512228231
+guid: 838f9164118c3fa4cb84c0965d72cbd1
+timeCreated: 1512292147
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -9,25 +9,14 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: B2_wall_bottom_window
-    7400000: Take 001
+    4300000: B1_roof_trim
     9500000: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: 2100000, guid: df22cb0c5c5a0944ea6caebf7c6b0ca1, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: dol_b4_3
-    second: {fileID: 2100000, guid: 9a8cb7fa9d81a0241b0eee73d96f868b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: okno
-    second: {fileID: 2100000, guid: bbb8730e2f709ef45a52138aba2b969f, type: 2}
+      name: plaster
+    second: {fileID: 2100000, guid: 792493d4b750b1140984a8420e2a5446, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
