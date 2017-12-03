@@ -17,6 +17,8 @@ public class PlayerRagdollController : MonoBehaviour {
             GetComponent<Collider>().enabled = false;
             GetComponent<Rigidbody>().useGravity = false;
             Time.timeScale = 0.5f;
+            GameObject.FindGameObjectWithTag("GameController").GetComponent<PlayerDeathController>().Wasted();
+
         }
     }
 }
