@@ -13,4 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Musztarda
   id: 2
-  image: {fileID: 21300000, guid: 88861e1eef640554585cdbdc6ea4d964, type: 3}
+  image: {fileID: 21300000, guid: 2f33b05d67a159c4a836c8c4ec23767a, type: 3}
