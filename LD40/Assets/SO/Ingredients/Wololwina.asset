@@ -13,4 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: "Wo\u0142owina"
   id: 11
-  image: {fileID: 21300000, guid: 3d787849334c02945bd6b321a742d252, type: 3}
+  image: {fileID: 21300000, guid: d19ddce12563ec945be39e9a71e14a5c, type: 3}

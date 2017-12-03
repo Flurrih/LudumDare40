@@ -13,4 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Pomidor
   id: 8
-  image: {fileID: 21300000, guid: 3d787849334c02945bd6b321a742d252, type: 3}
+  image: {fileID: 21300000, guid: f6e16bdb6bddb9f4fa2ad0bd6eb0d2f5, type: 3}
