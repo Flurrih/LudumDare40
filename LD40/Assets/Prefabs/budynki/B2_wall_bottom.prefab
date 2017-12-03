@@ -22,13 +22,13 @@ GameObject:
   - component: {fileID: 33575264873330946}
   - component: {fileID: 23284130404854434}
   - component: {fileID: 95692847875864598}
-  - component: {fileID: 65063317654601570}
+  - component: {fileID: 65857309724610340}
   m_Layer: 0
   m_Name: B2_wall_bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4644315719969264
 Transform:
@@ -36,13 +36,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1308081883565474}
-  m_LocalRotation: {x: 0.5, y: 0.49999997, z: 0.50000006, w: 0.5000001}
-  m_LocalPosition: {x: 45.429085, y: 27.076328, z: -83.71515}
+  m_LocalRotation: {x: 0.0002480149, y: 0.0002480149, z: 0.70710677, w: 0.70710677}
+  m_LocalPosition: {x: 56, y: 0, z: -21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0.040000003, z: 90.00001}
 --- !u!23 &23284130404854434
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -57,7 +57,8 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: d51a98bea9d79cc4b8f1c27a4ea37003, type: 2}
+  - {fileID: 2100000, guid: 9a8cb7fa9d81a0241b0eee73d96f868b, type: 2}
+  - {fileID: 2100000, guid: bbb8730e2f709ef45a52138aba2b969f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -84,7 +85,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1308081883565474}
   m_Mesh: {fileID: 4300000, guid: 526f8db76bd0c9b4486a7392ed692e31, type: 3}
---- !u!65 &65063317654601570
+--- !u!65 &65857309724610340
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -94,8 +95,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.0005057, y: 3.0000026, z: 0.052824613}
-  m_Center: {x: 1.5002524, y: 1.5000006, z: 0.13641144}
+  m_Size: {x: 3.0005052, y: 3.000002, z: 0.052823797}
+  m_Center: {x: 1.5002526, y: 1.5000007, z: 0.13641182}
 --- !u!95 &95692847875864598
 Animator:
   serializedVersion: 3
