@@ -52,6 +52,7 @@ public class TrafficLightController : MonoBehaviour
                     StartTrigger1.SetActive(true);
                 if (StartTrigger2 != null)
                     StartTrigger2.SetActive(true);
+                if(policetrigger != null)
                 policetrigger.SetActive(true);
             }
             else if (trafficPriority == TrafficLightPriority.Car)
@@ -74,6 +75,8 @@ public class TrafficLightController : MonoBehaviour
                     StartTrigger1.SetActive(false);
                 if (StartTrigger2 != null)
                     StartTrigger2.SetActive(false);
+
+                if(policetrigger != null)
                 policetrigger.SetActive(false);
             }
 
