@@ -18,9 +18,9 @@ public class RotateLoadingIndicator : MonoBehaviour
     }
 
 	void Update () {
-		transform.rotation = Quaternion.Euler(new Vector3(0,0,transform.rotation.eulerAngles.z - Time.deltaTime * 100));
+		transform.rotation = Quaternion.Euler(new Vector3(0,0,transform.rotation.eulerAngles.z - Time.deltaTime * 1000));
 
-	    if (timer >= 6 && !isDone)
+	    if (timer >= 10 && !isDone)
 	    {
 	        ao.allowSceneActivation = true;
 	        isDone = true;
