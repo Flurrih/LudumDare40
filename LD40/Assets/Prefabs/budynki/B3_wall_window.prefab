@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33202937470415540}
   - component: {fileID: 23698393076922022}
   - component: {fileID: 95275826536956822}
-  - component: {fileID: 65072611038260416}
+  - component: {fileID: 65359412320201506}
   m_Layer: 0
   m_Name: B3_wall_window
   m_TagString: Untagged
@@ -37,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1958083622206558}
   m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 30, y: 3, z: -1}
+  m_LocalPosition: {x: 57.01157, y: 0.0000006631017, z: -2.179749}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -57,7 +57,9 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: d51a98bea9d79cc4b8f1c27a4ea37003, type: 2}
+  - {fileID: 2100000, guid: b95153614f731c348b231a5a99185ab7, type: 2}
+  - {fileID: 2100000, guid: bbb8730e2f709ef45a52138aba2b969f, type: 2}
+  - {fileID: 2100000, guid: 708ce018b89a3cb40854396df28379c3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -84,7 +86,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1958083622206558}
   m_Mesh: {fileID: 4300000, guid: 9669dddee3a48fa49ba8bb8b1fd6ceb9, type: 3}
---- !u!65 &65072611038260416
+--- !u!65 &65359412320201506
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}

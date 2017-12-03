@@ -22,13 +22,12 @@ GameObject:
   - component: {fileID: 33692086795374240}
   - component: {fileID: 23147053349921432}
   - component: {fileID: 95748022563110350}
-  - component: {fileID: 65265665928241612}
   m_Layer: 0
   m_Name: B1_sciana_dol_drzwi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4649869976946760
 Transform:
@@ -36,13 +35,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1004043356556158}
-  m_LocalRotation: {x: -0.50029, y: -0.50029, z: -0.49970984, w: -0.49970984}
-  m_LocalPosition: {x: -3, y: 0, z: -4}
+  m_LocalRotation: {x: 0.5, y: 0.49999997, z: 0.50000006, w: 0.5000001}
+  m_LocalPosition: {x: 57.256504, y: 0.00000040978193, z: -6.0545197}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -269.934, z: 90.00001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23147053349921432
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -57,7 +56,10 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: df22cb0c5c5a0944ea6caebf7c6b0ca1, type: 2}
+  - {fileID: 2100000, guid: afd9c0bc5075bfd4fa686eb850943303, type: 2}
+  - {fileID: 2100000, guid: 792493d4b750b1140984a8420e2a5446, type: 2}
+  - {fileID: 2100000, guid: df89ca64707d28d4b88fc7e036214406, type: 2}
+  - {fileID: 2100000, guid: 6ec2df92370565c46be56b96ce944384, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -84,18 +86,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1004043356556158}
   m_Mesh: {fileID: 4300000, guid: ba2e6c3f7d6680b46a03aafe3d9f0bc3, type: 3}
---- !u!65 &65265665928241612
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1004043356556158}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3, y: 1.9999993, z: 0.18046574}
-  m_Center: {x: 1.5, y: 0.99999964, z: 0.09191888}
 --- !u!95 &95748022563110350
 Animator:
   serializedVersion: 3
