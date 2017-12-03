@@ -3798,8 +3798,8 @@ MonoBehaviour:
   - {fileID: 137128765588431728}
   - {fileID: 137019357265453320}
   StartWeight: 0.2
-  StartPower: 0.8
-  energyWalkLossPerSec: 0.075
+  StartPower: 1
+  energyWalkLossPerSec: 0.02
   fatWalkLossPerSec: 0.01
   fatGainStayPerSec: 0.05
   weight: 0
