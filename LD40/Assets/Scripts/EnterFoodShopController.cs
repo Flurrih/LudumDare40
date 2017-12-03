@@ -46,7 +46,11 @@ public class EnterFoodShopController : EnterShopController
             {
                 cooldownTextMesh.gameObject.SetActive(false);
             }
-            timer = Cooldown;
+
+            if (timer != Cooldown)
+            {
+                timer = Cooldown;
+            }
         }
     }
 
