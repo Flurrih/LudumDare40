@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LightController : MonoBehaviour {
 
-    public Material RedMat, GreenMat;
+    public GameObject RedLight, GreenLight;
 
     public enum LightType
     {
@@ -19,13 +19,15 @@ public class LightController : MonoBehaviour {
         if (color == Color.red)
         {
             Light = LightType.Red;
-            this.GetComponent<Renderer>().sharedMaterial = RedMat;
+            RedLight.SetActive(true);
+            GreenLight.SetActive(false);
         }
 
-        if(color == Color.green)
+        if (color == Color.green)
         {
             Light = LightType.Green;
-            this.GetComponent<Renderer>().sharedMaterial = GreenMat;
+            RedLight.SetActive(false);
+            GreenLight.SetActive(true);
         }
     }
 }
