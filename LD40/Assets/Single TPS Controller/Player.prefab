@@ -3797,11 +3797,11 @@ MonoBehaviour:
   meshes:
   - {fileID: 137128765588431728}
   - {fileID: 137019357265453320}
-  StartWeight: 0.5
+  StartWeight: 0.2
   StartPower: 0.8
-  energyWalkLossPerSec: 0.2
-  fatWalkLossPerSec: 0.1
-  fatGainStayPerSec: 0.1
+  energyWalkLossPerSec: 0.075
+  fatWalkLossPerSec: 0.01
+  fatGainStayPerSec: 0.05
   weight: 0
   energy: 0
 --- !u!114 &114957799662681752
