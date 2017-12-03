@@ -78,7 +78,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 108934}
   m_LocalRotation: {x: 0, y: 0.001677866, z: 0, w: -0.9999986}
-  m_LocalPosition: {x: 60.6, y: 1, z: -55.1}
+  m_LocalPosition: {x: 3.3, y: 1, z: 47.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4878399005855778}
@@ -194,7 +194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 95179539790453614}
-  LockControl: 0
+  speed: 5
   camera: {fileID: 2055130}
 --- !u!124 &12470478
 Behaviour:
@@ -3797,8 +3797,11 @@ MonoBehaviour:
   meshes:
   - {fileID: 137128765588431728}
   - {fileID: 137019357265453320}
-  StartWeight: 0.5
+  StartWeight: 0.2
   StartPower: 0.8
+  energyWalkLossPerSec: 0.075
+  fatWalkLossPerSec: 0.01
+  fatGainStayPerSec: 0.05
   weight: 0
   energy: 0
 --- !u!114 &114957799662681752
@@ -4123,7 +4126,8 @@ SkinnedMeshRenderer:
   - {fileID: 4202472855954556}
   - {fileID: 4733524114969078}
   - {fileID: 4609745398423394}
-  m_BlendShapeWeights: []
+  m_BlendShapeWeights:
+  - -13.96
   m_RootBone: {fileID: 4002203978693270}
   m_AABB:
     m_Center: {x: -0.00000008940697, y: -0.08050448, z: 0.029838346}

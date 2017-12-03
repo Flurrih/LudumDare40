@@ -9,13 +9,18 @@ public class PlayerHealth : MonoBehaviour
 
     public float StartWeight, StartPower;
 
+    public float energyWalkLossPerSec, fatWalkLossPerSec, fatGainStayPerSec;
+
     [HideInInspector]
     public float weight, energy;
+
+    private PlayerController playerController;
 
     private void Start()
     {
         weight = StartWeight;
         energy = StartPower;
+        playerController = GetComponent<PlayerController>();
     }
 
     private void Update()
@@ -23,6 +28,16 @@ public class PlayerHealth : MonoBehaviour
         for (int i = 0; i < meshes.Length; i++)
         {
             meshes[i].SetBlendShapeWeight(0, weight * 100);
+        }
+
+        if (playerController.verticalMove > 0.5f)
+        {
+            weight -= Time.deltaTime * fatWalkLossPerSec;
+            energy -= Time.deltaTime * energyWalkLossPerSec;
+        }
+        else
+        {
+            weight += Time.deltaTime * fatGainStayPerSec;
         }
     }
 
