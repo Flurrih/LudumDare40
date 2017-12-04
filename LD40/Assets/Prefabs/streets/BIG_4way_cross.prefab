@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4902830347824748}
   - component: {fileID: 33887541931690320}
   - component: {fileID: 23573904390834246}
-  - component: {fileID: 65857697353050762}
   m_Layer: 0
   m_Name: BIG_4way_cross 1
   m_TagString: Untagged
@@ -38,6 +37,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4943677609800920}
   - component: {fileID: 95148240804686694}
+  - component: {fileID: 65782106544498272}
+  - component: {fileID: 114357859105404592}
   m_Layer: 0
   m_Name: BIG_4way_cross
   m_TagString: Untagged
@@ -55,7 +56,7 @@ GameObject:
   - component: {fileID: 4463522620829158}
   - component: {fileID: 33546185228737344}
   - component: {fileID: 23473534717694726}
-  - component: {fileID: 64674552498335220}
+  - component: {fileID: 65621855732885278}
   m_Layer: 0
   m_Name: chodnik5
   m_TagString: Untagged
@@ -186,8 +187,8 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1103652726466776}
   m_Mesh: {fileID: 4300002, guid: 82b114a5e11566544ae30a28af0fc936, type: 3}
---- !u!64 &64674552498335220
-MeshCollider:
+--- !u!65 &65621855732885278
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -196,22 +197,20 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300004, guid: 82b114a5e11566544ae30a28af0fc936, type: 3}
---- !u!65 &65857697353050762
+  m_Size: {x: 14, y: 14.000004, z: 0.1541667}
+  m_Center: {x: 7, y: -7.000002, z: -0.07708216}
+--- !u!65 &65782106544498272
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1103652726466776}
+  m_GameObject: {fileID: 1190229045930144}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 14, y: 14.000004, z: 0}
-  m_Center: {x: 7, y: -7.000002, z: -0.15000002}
+  m_Size: {x: 8.54, y: 8.54, z: 1}
+  m_Center: {x: 7.48, y: -6.87, z: 0}
 --- !u!95 &95148240804686694
 Animator:
   serializedVersion: 3
@@ -229,3 +228,14 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114357859105404592
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1190229045930144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6c4b0f2525c3741adce9f635914a45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

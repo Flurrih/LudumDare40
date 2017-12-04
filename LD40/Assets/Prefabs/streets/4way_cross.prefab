@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4891677250879470}
   - component: {fileID: 33463730426649180}
   - component: {fileID: 23312773908706336}
-  - component: {fileID: 64516177818031300}
+  - component: {fileID: 65240144136099100}
   m_Layer: 0
   m_Name: chodnik3
   m_TagString: Untagged
@@ -39,7 +39,6 @@ GameObject:
   - component: {fileID: 4185526164840942}
   - component: {fileID: 33278112757916872}
   - component: {fileID: 23643907535532994}
-  - component: {fileID: 65935425640822490}
   m_Layer: 0
   m_Name: 4way_cross 1
   m_TagString: Untagged
@@ -96,7 +95,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1362836766014186}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -67.752304, y: 95.451324, z: -56.298977}
+  m_LocalPosition: {x: 24.247696, y: 95.451324, z: 56.701023}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4185526164840942}
@@ -186,8 +185,8 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1313307807761104}
   m_Mesh: {fileID: 4300028, guid: 38cea7bc6debe354798df3fc5b268858, type: 3}
---- !u!64 &64516177818031300
-MeshCollider:
+--- !u!65 &65240144136099100
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -196,22 +195,8 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300028, guid: 38cea7bc6debe354798df3fc5b268858, type: 3}
---- !u!65 &65935425640822490
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1320850176458210}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 9, y: 9.000002, z: 0}
-  m_Center: {x: 4.5, y: -4.500001, z: -0.15000002}
+  m_Size: {x: 9, y: 9.000002, z: 0.15151556}
+  m_Center: {x: 4.5, y: -4.4999933, z: -0.07575349}
 --- !u!95 &95678196545127696
 Animator:
   serializedVersion: 3
