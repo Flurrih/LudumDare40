@@ -17,6 +17,7 @@ ModelImporter:
     3300002: StraightStair001
     4300000: StraightStair001
     4300002: B1_wall_bottom_door003
+    7400000: Take 001
     9500000: //RootNode
   externalObjects:
   - first:
@@ -24,6 +25,26 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: No Name
     second: {fileID: 2100000, guid: df22cb0c5c5a0944ea6caebf7c6b0ca1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: drzwi
+    second: {fileID: 2100000, guid: df89ca64707d28d4b88fc7e036214406, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: framuga
+    second: {fileID: 2100000, guid: 6ec2df92370565c46be56b96ce944384, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plaster
+    second: {fileID: 2100000, guid: 792493d4b750b1140984a8420e2a5446, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sciana
+    second: {fileID: 2100000, guid: afd9c0bc5075bfd4fa686eb850943303, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
